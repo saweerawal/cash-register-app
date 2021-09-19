@@ -1,0 +1,85 @@
+
+.container{
+    margin: 1rem auto;
+    padding: 1rem 1.3rem 5rem 1.3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw; 
+    background-color: darkslateblue;
+    text-align: center;
+    
+}
+
+label{
+   margin: auto;
+   padding-left: 0.5rem;  
+}
+.change-table{
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+}
+
+caption{
+    margin: 0.5rem auto;
+    padding-left: 0.7rem;
+}
+.notes-value{
+    width: 75px;
+    padding: 0rem;
+    background-color: white;
+    color: darkslateblue; 
+}
+
+
+th, td{
+ width: 75px;
+ background-color: rgb(213, 206, 255);
+ color:darkslateblue;
+}
+
+#bill-amount{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    color: darkslateblue;
+}
+
+#cash-amount{
+    margin: 0.5rem ;
+    padding: 0.3rem;
+    color: darkslateblue;
+}
+
+#next-btn{
+    text-align: center;
+    width: fit-content;
+    display: block;
+    margin: 0.5rem auto;
+    border-style: double;
+    border-color:darkslateblue;
+    border-radius: 0.3rem;
+    border-width: 3.5px;
+    padding: 0.5rem 1.3rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(213, 206, 255);
+    color:darkslateblue;
+}
+
+#check-btn{
+    text-align: center;
+    width: fit-content;
+    display: block;
+    margin: 0.5rem auto;
+    border-style: double;
+    border-color:darkslateblue;
+    border-radius: 0.3rem;
+    border-width: 3.5px;
+    padding: 0.5rem 1.3rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(213, 206, 255);
+    color:darkslateblue;
+}
